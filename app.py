@@ -13,11 +13,11 @@ model = keras.models.load_model("BrainTumor10EpochsCaterogical.h5")
 print("Model loaded")
 
 
-def get_class_name(classNo):
-    if classNo == 0:
-        return "No Brain Tumor"
-    elif classNo == 1:
-        return "Yes Brain Tumor"
+def get_class_name(result_code):
+    if result_code == 0:
+        return "Немає раку"
+    elif result_code == 1:
+        return "Рак є"
 
 
 def get_result(img):

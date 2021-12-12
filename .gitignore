@@ -1,2 +1,4 @@
 /dataset
 main.py
+!/uploads
+uploads/*
