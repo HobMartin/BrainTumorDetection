@@ -15,9 +15,9 @@ print("Model loaded")
 
 def get_class_name(result_code):
     if result_code == 0:
-        return "Немає раку"
+        return "Немає пухлини"
     elif result_code == 1:
-        return "Рак є"
+        return  "Є Пухлина"
 
 
 def get_result(img):

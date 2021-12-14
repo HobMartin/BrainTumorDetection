@@ -6,11 +6,6 @@ from PIL import Image
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-# from keras.utils import normalize
-# from keras.models import Sequential
-# from keras.layers import Conv2D, MaxPolling2D
-# from keras.layers import Activation, Dropout, Flatten, Dense
-
 image_dir = "dataset/"
 
 no_tumor = os.listdir(image_dir + "no/")
